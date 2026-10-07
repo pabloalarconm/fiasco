@@ -1,0 +1,12 @@
+services:
+  fiasco:
+    build: .
+    image: fiasco:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - fiasco-data:/data
+    restart: unless-stopped
+
+volumes:
+  fiasco-data:

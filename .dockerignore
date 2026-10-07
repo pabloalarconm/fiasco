@@ -1,0 +1,14 @@
+**/__pycache__
+**/.pytest_cache
+backend/.venv
+backend/dice.db
+backend/tests
+frontend/node_modules
+frontend/dist
+frontend/.angular
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+*.md
